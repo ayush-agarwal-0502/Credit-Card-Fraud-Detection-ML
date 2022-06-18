@@ -3,7 +3,7 @@ Credit Card Fraud Detection using Logistic Regression
 * Name - Ayush Agarwal 
 * Project - Credit Card Fraud Detection 
 * Skills - Logistic regression , Data Visualisation , Exploratory Data Analysis , Data Science , Machine Learning 
-* Tools - Google Colab , Jypyter Notebooks , Python , Numpy , Pandas , Matplotlib , Seaborn , Sklearn 
+* Tools - Google Colab , Jupyter Notebooks , Python , Numpy , Pandas , Matplotlib , Seaborn , Sklearn 
 
 ## Code :
 
