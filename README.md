@@ -7,7 +7,7 @@ Credit Card Fraud Detection using Logistic Regression
 
 ## Code :
 
-The code is availaible at : (in this repository itself ) .
+The code is availaible at : https://github.com/ayush-agarwal-0502/Credit-Card-Fraud-Detection-ML/blob/main/credit_card_fraud_detection_project.ipynb (in this repository itself ) .
 
 ## The Dataset :
 
@@ -55,3 +55,8 @@ To cure imbalance , we can use undersampling or oversampling . Here , I have dec
 
 ![image](https://user-images.githubusercontent.com/86561124/174431044-03c757fa-758b-4a1d-a3d7-8746f07290e8.png)
 
+### Training the model :
+
+![image](https://user-images.githubusercontent.com/86561124/174431091-84847f62-0628-4f7f-83e4-b5d0c4295477.png)
+
+I have trained a Logistic Regression Model here . The model was showing a not converging warning , so I read its documentation and added the code to make it run for 150 iterations . 
