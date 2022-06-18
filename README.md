@@ -42,3 +42,16 @@ The columns do not seem to have correlations with each other , and seem to have 
 ![image](https://user-images.githubusercontent.com/86561124/174430887-a31417db-12bb-4c7e-92a1-9ac70221001f.png)
 ![image](https://user-images.githubusercontent.com/86561124/174430890-f8754898-f87a-4d1c-bcef-8a1a11401189.png)
 ![image](https://user-images.githubusercontent.com/86561124/174430895-5c969eff-1f74-44ff-8790-bda64463d73e.png)
+
+A plot between different columns and amount along with different colours for target variable show that our output classes are separable by linear boundary even in case of graphing variables alone , hence __LOGISTIC REGRESSION__ will help separate the multivariable data into 2 classes .
+
+### Class Imbalance in dataset :
+
+![image](https://user-images.githubusercontent.com/86561124/174430979-7d6dbbfa-8949-43bc-acdb-96daa1587309.png)
+
+This shows that we have way way less data for fraud cases than for non fraud cases , which is expected from the dataset . 
+
+To cure imbalance , we can use undersampling or oversampling . Here , I have decided to use SMOTE to counter the class imbalance in the dataset . 
+
+![image](https://user-images.githubusercontent.com/86561124/174431044-03c757fa-758b-4a1d-a3d7-8746f07290e8.png)
+
