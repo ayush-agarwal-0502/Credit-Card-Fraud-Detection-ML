@@ -60,3 +60,13 @@ To cure imbalance , we can use undersampling or oversampling . Here , I have dec
 ![image](https://user-images.githubusercontent.com/86561124/174431091-84847f62-0628-4f7f-83e4-b5d0c4295477.png)
 
 I have trained a Logistic Regression Model here . The model was showing a not converging warning , so I read its documentation and added the code to make it run for 150 iterations . 
+
+### Results :
+
+![image](https://user-images.githubusercontent.com/86561124/174431703-3b4657d4-d52d-48d3-a43b-bb6bb982f3a4.png)
+
+The F1 score came 0.99 meaning the Classifier is working great . It managed to catch 91 out of 101 frauds , thus preventing frauds 90% of the time . 
+The confusion matrix , precision , recall and F1 score has been displayed for your convenience . The confusion matrix readings and the F1 show the success of the project .
+
+![image](https://user-images.githubusercontent.com/86561124/174431788-0c9feb90-de29-4477-a6ad-25c0f6481663.png)
+
