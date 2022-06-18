@@ -13,6 +13,32 @@ The code is availaible at : (in this repository itself ) .
 
 The data was taken from Kaggle site : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud .
 
-I have also uploaded a copy of this dataset on this repository just in case this dataset is removed : .
-
 The Columns do not have physical significance directly visible since as per the source (Kaggle) , the data was compressed using Principle Component Analysis (PCA) in order to protect the privacy of the individuals while making a realistic secnario dataset availaible to public . 
+
+## Data Preprocessing and Visualisation :
+
+![image](https://user-images.githubusercontent.com/86561124/174430662-5a302491-d9ca-4705-b5c3-2d263563f564.png)
+
+### Correlations :
+
+![image](https://user-images.githubusercontent.com/86561124/174430686-86a03acf-d2b0-4888-bd7b-ca0a13df524e.png)
+![image](https://user-images.githubusercontent.com/86561124/174430691-a1e9a345-2924-4a7f-9160-daab07f58af4.png)
+
+The columns do not seem to have correlations with each other , and seem to have great correlation with the Class and time variables , hence being a great indicator that simple models would be helpful here , and neural networks wont be needed hopefully . 
+
+### Relation between target variables and columns :
+![image](https://user-images.githubusercontent.com/86561124/174430766-c090f225-59c0-4ddb-9a6f-dd8f05389e23.png)
+![image](https://user-images.githubusercontent.com/86561124/174430773-7d1943c5-15b6-4daa-a6b9-574cdd7cbe8e.png)
+![image](https://user-images.githubusercontent.com/86561124/174430829-b846dd24-fef8-42fc-b532-42b01c520e69.png)
+![image](https://user-images.githubusercontent.com/86561124/174430842-95865a87-7cb9-48b0-b379-622d6c4f3107.png)
+![image](https://user-images.githubusercontent.com/86561124/174430848-c63a5e3d-fd7f-4b86-b803-50ed30acab6f.png)
+![image](https://user-images.githubusercontent.com/86561124/174430854-7961a3bb-fb66-474b-89db-31b70c0c2e8e.png)
+![image](https://user-images.githubusercontent.com/86561124/174430860-bdc69fbf-beb8-4844-a7d0-c16b0974399e.png)
+![image](https://user-images.githubusercontent.com/86561124/174430867-2fd707eb-c370-4ea8-b95b-2c740242903a.png)
+![image](https://user-images.githubusercontent.com/86561124/174430871-c720db9c-1573-4efb-b166-270a305a1ac3.png)
+![image](https://user-images.githubusercontent.com/86561124/174430875-5a17d646-ec37-4cec-9eeb-b8051ee54fc7.png)
+![image](https://user-images.githubusercontent.com/86561124/174430881-3932b5bb-f2ae-4e9e-abbd-7818cf2c910c.png)
+![image](https://user-images.githubusercontent.com/86561124/174430883-e9520d29-d7a6-435c-98c3-878827cd8c12.png)
+![image](https://user-images.githubusercontent.com/86561124/174430887-a31417db-12bb-4c7e-92a1-9ac70221001f.png)
+![image](https://user-images.githubusercontent.com/86561124/174430890-f8754898-f87a-4d1c-bcef-8a1a11401189.png)
+![image](https://user-images.githubusercontent.com/86561124/174430895-5c969eff-1f74-44ff-8790-bda64463d73e.png)
